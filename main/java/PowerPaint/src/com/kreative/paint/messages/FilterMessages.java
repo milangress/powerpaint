@@ -56,6 +56,7 @@ public class FilterMessages extends ListResourceBundle {
 			{ "MosaicFilter", "Pixelate/Mosaic" },
 			{ "OffsetFilter", "Miscellaneous/Offset" },
 			{ "RippleFilter", "Distort/Ripple" },
+			{ "QuantizeFilter", "Distort/Quantize" },
 			{ "SeedsFilter", "Cellular Automaton/Seeds" },
 			{ "WireWorldFilter", "Cellular Automaton/Wireworld" },
 			// These are labels and titles for all filter option dialogs in general.
@@ -91,6 +92,7 @@ public class FilterMessages extends ListResourceBundle {
 			{ "offset.Vert", "Vertical Offset:" },
 			{ "offset.Wrap", "Wrap Around" },
 			{ "ripple.Amount", "Amount" },
+			{ "quantize.Quantize", "Quantization:" },
 	};
 	
 	protected Object[][] getContents() {
