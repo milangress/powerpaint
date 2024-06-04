@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dither-algorithms PUBLIC "-//Kreative//DTD PowerDither 1.0//EN" "http://www.kreativekorp.com/dtd/ditx.dtd">
+<dither-algorithms name="Diffusion">
+	<dither-algorithm
+		type="diffusion"
+		name="Funky2Row Equal"
+		rows="2" cols="3" d="16">
+		0	0	4
+		4	4	4
+	</dither-algorithm>
+	<dither-algorithm
+		type="diffusion"
+		name="Funky2Row only D+R"
+		rows="2" cols="3" d="16">
+		0	0	8
+		0	8	0
+	</dither-algorithm>
+	<dither-algorithm
+		type="diffusion"
+		name="Funky2Row diagonal"
+		rows="2" cols="3" d="16">
+		0	0	0
+		8	0	8
+	</dither-algorithm>
+	<dither-algorithm
+		type="diffusion"
+		name="Funky2Row lines"
+		rows="2" cols="3" d="16">
+		0	0	-4
+		4	12	4
+	</dither-algorithm>
+	<dither-algorithm
+		type="diffusion"
+		name="Funky2Row dark"
+		rows="2" cols="3" d="16">
+		0	0	0
+		8	0	-8
+	</dither-algorithm>
+	<dither-algorithm
+		type="diffusion"
+		name="Funky2Row broken"
+		rows="2" cols="3" d="4">
+		0	0	-12
+		4	-6	-5
+	</dither-algorithm>
+	<dither-algorithm
+		type="diffusion"
+		name="Funky2Row triangles"
+		rows="2" cols="3" d="16">
+		0	0	-17
+		0	0	-17
+	</dither-algorithm>
+</dither-algorithms>
