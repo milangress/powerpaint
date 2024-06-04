@@ -31,7 +31,8 @@ eclipseclean:
 bin: src
 	mkdir -p bin
 ifeq ($(origin JAVACFLAGS), undefined)
-	$(eval JAVACFLAGS = $(shell dep/minJavaVerOpts))
+	#$(eval JAVACFLAGS = $(sh dep/minJavaVerOpts))
+	$(export JAVACFLAGS = -source 8 -target 8)
 endif
 	javac $(JAVACFLAGS) -classpath dep/ual.jar -sourcepath src $(SRCFILES) -d bin
 	$(foreach res,$(RESFILES),cp src/$(res) bin/$(res);)
