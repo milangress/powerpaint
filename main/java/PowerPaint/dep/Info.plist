@@ -741,6 +741,6 @@
 		<string>$APP_PACKAGE/..</string>
 	</dict>
 	<key>NSHighResolutionCapable</key>
-	<true/>
+	<false/>
 </dict>
 </plist>
